@@ -1,9 +1,7 @@
 ---
 layout: post
-title: You're up and running!
+title: Blogging is easy!
 ---
-
-## Blogging is easy
 
 Previously this page was hand crafted HTML File which I created for my front facing online profile. It was reminiscent of the early era of the internet where anyone could create their own page and everything was handwritten by html. I wanted to give a feeling of throwback to the early era, but in reality it was an extremely ugly page. You can find it in my github repository kelvinsilvaAlternative github static repo. 
 
