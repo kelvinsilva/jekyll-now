@@ -22,7 +22,7 @@ Aside from that, I love to go to the gym, as well as learning MMA and Kickboxing
 
 Other minor interests include urban planning and city scapes, as well as geography.
 
-Over the years I have developed an interest in Robotics Programming and Robotics due to the tangible and physical results that it gives. Watching an lifeless object become animated through lines of computer code provides a satisfaction of accomplishment that other kinds of areas in Computer Engineering do not provide.
+Over the years I have developed an interest in Robotics Programming and Robotics due to the tangible and physical results that it gives. Watching a lifeless object become animated through lines of computer code provides a satisfaction of accomplishment that other kinds of areas in Computer Engineering do not provide.
 
 ### Current Activity
 
