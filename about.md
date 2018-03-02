@@ -7,7 +7,9 @@ permalink: /about/
 ### Information
 
 Age: 21
+
 Location: Santa Cruz, CA
+
 Legal Status: U.S. Citizen
 
 Looking for FULL TIME position starting in June. Willing to relocate anywhere.
