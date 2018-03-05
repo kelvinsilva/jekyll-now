@@ -14,8 +14,13 @@ Demonstration: http://dvp.st/2oQdNvp
 
 #### Technologies
 Amazon AWS Lambda
+
 Amazon Alexa SSML
+
 Amazon Alexa Skill Development
+
 Python, Python Requests library
+
 Google Places API
+
 Google Maps API
