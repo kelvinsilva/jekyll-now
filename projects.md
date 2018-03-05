@@ -1,7 +1,7 @@
 ---
 layout: page
-title: -
-permalink: /about/
+title: 
+permalink: /projects/
 ---
 ## Slugsistant Amazon Alexa App
 
