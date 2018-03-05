@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Projects
 permalink: /projects/
 ---
 ### Slugsistant Amazon Alexa App
