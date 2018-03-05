@@ -21,10 +21,4 @@ It turns out that the Baskin hallways have a lot of features (divets, nooks, cra
 
 Here is a video demonstration:
 
-<object width="425" height="350">
-  <param name="movie" value="https://www.youtube.com/watch?v=x9NRgX7njaU" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://www.youtube.com/watch?v=x9NRgX7njaU"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x9NRgX7njaU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
