@@ -3,7 +3,7 @@ layout: page
 title: 
 permalink: /projects/
 ---
-## Slugsistant Amazon Alexa App
+### Slugsistant Amazon Alexa App
 
 https://github.com/kelvinsilva/hackathon
 
@@ -12,7 +12,7 @@ Slugsistant helps students find Santa Cruz Metro information, Loop Bus Status, a
 
 Demonstration: http://dvp.st/2oQdNvp
 
-### Technologies
+#### Technologies
 Amazon AWS Lambda
 Amazon Alexa SSML
 Amazon Alexa Skill Development
