@@ -1,3 +1,7 @@
+layout: page
+title: 
+permalink: /about/
+---
 ## Slugsistant Amazon Alexa App
 
 https://github.com/kelvinsilva/hackathon
