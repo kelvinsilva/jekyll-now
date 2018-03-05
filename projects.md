@@ -13,14 +13,9 @@ Slugsistant helps students find Santa Cruz Metro information, Loop Bus Status, a
 Demonstration: http://dvp.st/2oQdNvp
 
 #### Technologies
-Amazon AWS Lambda
-
-Amazon Alexa SSML
-
-Amazon Alexa Skill Development
-
-Python, Python Requests library
-
-Google Places API
-
-Google Maps API
+1. Amazon AWS Lambda
+2. Amazon Alexa SSML
+3. Amazon Alexa Skill Development
+4. Python, Python Requests library
+5. Google Places API
+6. Google Maps API
