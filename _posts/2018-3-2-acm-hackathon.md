@@ -45,3 +45,6 @@ We won 1st prize at HackACM! 🙌 @Devpost http://dvp.st/2oQdNvp
 Overall it was a great experience, even though Daniel and I were suffering from common cold during our 12 hour session. I was surprised at how well we worked together and the pace at which we learned AWS Lambda as well as Alexa, having never encountered it before.
 I would suggest anyone trying to learn AWS Lambda, to create an Amazon Alexa app as an introductory project.
 
+Here is the github:
+`https://github.com/kelvinsilva/hackathon`
+
