@@ -27,4 +27,5 @@ Small errors in the map are not worrisome however since the probablistic nature 
 This was a monumental day as it confirms the accuracy (relatively speaking) of odometry which sets the stage for localization and navigation portions of IANS.
 
 Until next time
+
 -Kelvin
