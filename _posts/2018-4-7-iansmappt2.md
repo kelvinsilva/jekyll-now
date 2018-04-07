@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Indoor Autonomous System Mapping and Localization
+title: Indoor Autonomous System Mapping with Odometry
 ---
 
 From my previous post "Mapping Out Baskin", I am working on my senior thesis project involving robotic navigation (IANS Project). The hardware has finally arrived and we have a fully driveable robot with a 360 Laser Scanner and Encoders (ticks from motors to give odometry). 
