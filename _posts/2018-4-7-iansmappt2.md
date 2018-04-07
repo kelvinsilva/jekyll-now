@@ -20,9 +20,9 @@ The map we created with GMapping is below (Jack Baskin 3rd floor):
 </p>
 * Image is annotated
 
-Notice that in this map we have a long and featureless hallway, which is captured perfectly with GMapping since it also relies on odometry data to create its map. One thing to notice is the small error in angle along the top right long horizontal hallway (with 3 divets) due to imperfection of odometric data.  Probalistic methods are amazing, but they aren't perfect. 
+Notice that in this map we have a long and featureless hallway, which is captured perfectly with GMapping since it also relies on odometry data to create its map. One thing to notice is the small error in angle along the top right long horizontal hallway (with 3 divets) due to imperfection of odometric data.  Probabilistic methods are amazing, but they aren't perfect. 
 
-Small errors in the map are not worrisome however since the probablistic nature of the AMCL (adaptive monte carlo localization) package  we will be able to localize adequately in this map.
+Small errors in the map are not worrisome however since the probabilistic nature of the AMCL (adaptive monte carlo localization) package  we will be able to localize adequately in this map.
 
 This was a monumental day as it confirms the accuracy (relatively speaking) of odometry which sets the stage for localization and navigation portions of IANS.
 
