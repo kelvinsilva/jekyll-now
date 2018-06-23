@@ -3,9 +3,11 @@ layout: post
 title: Parallelized Particle Filter for Robotic State Estimation
 ---
 
-### Introduction
+
 
 Particle Filters used in Robotic Localization, also known as Monte Carlo Localization are a commonly used method to obtain robotic position within an environment where sensor readings are inaccurate. Particle Filters are components of every robotic system which requires autonomous navigation. 
+
+### Introduction
 
 Particle Filters are one of the most versatile methods of obtaining state estimation, rivaling Kalman Filters and other methods due to its robustness in dealing with sensor errors (no assumption of Gaussian error distribution), and are relatively easy to implement within systems. 
 
