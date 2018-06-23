@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Parallelized Particle Filter for Robotic State Estimation
+title: Parallelized Particle Filter for Robotic State Estimation CUDA
 ---
 
 
