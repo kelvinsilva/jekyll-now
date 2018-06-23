@@ -11,8 +11,6 @@ Particle Filters are one of the most versatile methods of obtaining state estima
 
 Particle Filters are mostly implemented using serial algorithms. This paper presents a parallelized approach to particle ﬁltering, as well as runtime analysis of both serial and parallelized approaches, and discusses the advantages and disadvantages of both serial and parallelized approaches to particle ﬁltering.
 
-
-
 One iteration of the Particle Filtering algorithm consists of four main steps:
 Initialization: Particle Generation
 
@@ -26,7 +24,9 @@ A parallelized particle ﬁlter will have either linear (due to memory bottlenec
 
 In this post, I will talk about how I implemented a simple parallelized particle filter as a final project for my GPU Programming class at UC Santa Cruz.
 
-The approach taken to create the parallel particle ﬁlter (PPF) example and code structure was taken from Sebastian Thrun’s Udacity course in Artiﬁcial Intelligence For Robotics. The python code for the "Robot" class was translated [2] into a C style struct coupled with data structure speciﬁc functions (device CUDA functions) to modify data. The next step was to take lines 115 - 150 in [2] and translate it into CUDA kernels. 
+### Method
+
+The approach taken to create the parallel particle ﬁlter (PPF) example and code structure was taken from Sebastian Thrun’s Udacity course in Artiﬁcial Intelligence For Robotics. The python code for the "Robot" class was translated [2] into a C style struct coupled with data structure speciﬁc functions (device CUDA functions) to modify data. The next step was to take lines 115 - 150 in [2] and translate it into CUDA kernels. The Kernel configuration was such that each CUDA Block was assigned 1024 particles, where each thread is assigned to process one particle.
 
 
 One area of special mention is the resampling step in the PPF. Thrun’s code [2] is serialized and the weight calculation for each particle is an inherently serial algorithm were one iteration of the resampling step is dependent on the previous iteration (speciﬁcally lines 140 - 143 in [?]) and cannot be easily parallelized. To ﬁx this problem, I employed the Metropolis resampling method which is easily parallelizable since its weight calculations are based on ratios of weights instead of a running sum. (More detail explained in [4]) [4]
@@ -49,6 +49,11 @@ Originally three separate kernels were used, one for each step in the particle �
 
 The resampling method is where unlikely particles are to be ﬁltered out and likely particles that represent the Robot’s true position stays in memory. The method that I used was the Metropolis resampling algorithm [4]. The Metropolis resampler takes in a parameter B which speciﬁes the number of iterations to be performed before a particle is to be sampled from the set [4]. For each particle K; and iterating B times: the Metropolis resampler calculates a random number U, and chooses random other particle J in the set. It then calculates the ratio of weight of particle J and K and if it is less than U, that particle J will be resampled (it is a particle likely to approximate the Robot’s true position).
 
+Metropolis Resampling Pseudo Code:
+<a href="https://ibb.co/jMXqx8"><img src="https://preview.ibb.co/cu0zqT/image.png" alt="image" border="0"></a>
+
+
+Metropolis Resampling CUDA:
 ```C++
 /*FIGURE 1*/
 /*********************************Metropolis Resampling********************************/
