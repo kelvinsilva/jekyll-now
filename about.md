@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ### Introduction
 
-A computer systems engineer interested in robotics and computer systems. I have been playing with computers since I was a small child. In 2011 I started my career by reading Stephen Prata's C++ Primer Plus 5th edition, and starting my college years in Computer Science and Engineering in 2013. 
+I'm a computer systems engineer interested in robotics and computer science/engineering. I have been playing with computers since I was a small child. In 2011 I started my career by reading Stephen Prata's C++ Primer Plus 5th edition, and starting my college years in Computer Science and Engineering in 2013. 
 
 Aside from that, I love to go to the gym, as well as learning MMA and Kickboxing.
 
