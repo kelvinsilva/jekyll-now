@@ -9,13 +9,10 @@ I'm a computer systems engineer interested in robotics and computer science/engi
 
 Aside from that, I love to go to the gym, as well as learning MMA and Kickboxing.
 
-Other minor interests include urban planning and city scapes, as well as geography.
 
-Over the years I have developed an interest in Robotics Programming and Robotics due to the tangible and physical results that it gives. Watching a lifeless object become animated through lines of computer code provides a satisfaction of accomplishment that other kinds of areas in Computer Engineering do not provide.
+### Activity
 
-### Current Activity
-
-Currently a Full Time Software Engineer for Collins Aerospace (formerly Rockwell Collins). Located in Cedar Rapids, IA.
+Previously a Full Time Software Engineer for Collins Aerospace (formerly Rockwell Collins). Located in Cedar Rapids, IA.
 
 I work on the legacy Airborne GPS Receivers from Collins Aerospace. The product line dates back to the 1990's and it's been an interesting experience. I work with a lot of legacy code that was translated from Jovial to C. My current work deals with implementing new features within this legacy codebase, and understanding legacy designs to fix newly discovered bugs. 
 
